@@ -1,0 +1,36 @@
+:root {
+  --color-bg: #f7f8fa;
+  --color-surface: #ffffff;
+  --color-text: #3d4451;
+  --color-text-muted: #8b919a;
+  --color-accent: #7c9eb2;
+  --color-accent-soft: #e8eef2;
+  --color-border: #e2e6ea;
+  --color-error: #c47a7a;
+  --color-rating-excellent-bg: #e3f0e8;
+  --color-rating-excellent-text: #4a7c62;
+  --color-rating-good-bg: #e3ecf3;
+  --color-rating-good-text: #5a7f96;
+  --color-rating-fair-bg: #f3ece0;
+  --color-rating-fair-text: #9a7b4f;
+  --color-rating-low-bg: #f3e5e5;
+  --color-rating-low-text: #a86b6b;
+  --color-rating-none-bg: #eef0f2;
+  --color-rating-none-text: #8b919a;
+  --radius-md: 12px;
+  --radius-sm: 8px;
+  --shadow-soft: 0 2px 8px rgb(61 68 81 / 6%);
+  --scroll-fade-color: rgb(247 248 250 / 92%);
+  --scroll-shadow: inset -10px 0 10px -8px rgb(61 68 81 / 10%);
+  --space-xs: 0.25rem;
+  --space-sm: 0.5rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2rem;
+  --focus-ring: 0 0 0 3px rgb(124 158 178 / 45%);
+  --card-width: 150px;
+  --card-title-height: 2.6em;
+  --sidebar-width: 220px;
+  --header-height: 4.5rem;
+  --font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+}
