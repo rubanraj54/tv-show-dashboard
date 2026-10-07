@@ -22,14 +22,7 @@ describe('tvmaze api', () => {
 
     await fetchShowsPage(2)
 
-    expect(fetchMock).toHaveBeenCalledWith(
-      'https://api.tvmaze.com/shows?page=2',
-      expect.objectContaining({
-        headers: expect.objectContaining({
-          'User-Agent': expect.stringContaining('tv-show-dashboard'),
-        }),
-      }),
-    )
+    expect(fetchMock).toHaveBeenCalledWith('https://api.tvmaze.com/shows?page=2')
   })
 
   it('requests search with an encoded query string', async () => {
@@ -46,7 +39,6 @@ describe('tvmaze api', () => {
 
     expect(fetchMock).toHaveBeenCalledWith(
       'https://api.tvmaze.com/search/shows?q=breaking%20bad',
-      expect.any(Object),
     )
   })
 
